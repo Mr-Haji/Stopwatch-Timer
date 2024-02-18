@@ -97,8 +97,8 @@ function timstop() {
 function timreset() {
 
   timms = 100;
-  timsec = 0;
-  timmin = 5;
+  timsec = 59;
+  timmin = 4;
   timinterval;
   timgetmiliseconds.innerHTML = "00";
   timgetseconds.innerHTML = "59";
