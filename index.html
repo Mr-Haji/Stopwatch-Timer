@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ==================StopWatch============== -->
+    <section class="main">
+      <section class="watch">
+        <section class="clock">
+          <h1 class="digit">
+            <span id="digit">
+              <h1 class="num" id="minutes">00</h1>
+              :
+              <h1 class="num" id="seconds">00</h1>
+              :
+              <h1 class="num" id="miliSec">00</h1>
+            </span>
+          </h1>
+        </section>
+
+        <section>
+          <button class="button" onclick="sttimer()" id="btn-start">
+            Start
+          </button>
+          <button class="button" onclick="stop()" id="btn-stop">Stop</button>
+          <button class="button" onclick="reset()" id="btn-reset">Reset</button>
+        </section>
+        <br />
+        <section class="git">
+          <a href="https://github.com/Mr-Haji" target="_blank"
+            ><img src="./s-01-01-removebg-preview.png" width="100px" alt="pic"
+          /></a>
+        </section>
+      </section>
+      <button class="switch">
+        <a href="index2.html">Switch To <span class="red">Timer</span></a>
+      </button>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

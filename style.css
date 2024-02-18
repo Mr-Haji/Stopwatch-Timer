@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+}
+
+.main {
+    height: 400px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+
+#btn-reset {
+    border: none;
+}
+
+.git a {
+    margin-top: 100px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.switch {
+    background-color: transparent;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #0077ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    border: none;
+    color: aliceblue;
+}
+
+.switch a {
+    text-decoration: none;
+    color: #ffffffe3;
+    border: none;
+    
+}
+
+.watch {
+    margin-bottom: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #0077ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    cursor: default;
+    color: rgb(253, 253, 253);
+   
+}
+#digit{
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+padding-top: 20px;
+}
+
+#miliSec {
+    color: #e60000;
+}
+#timmiliSec {
+    color: #e60000;
+}
+
+.red {
+    color: #e60000;
+}
+
+.num{
+    /* border: 5px solid #0077ff;   */
+width: 40px;
+height: 60px;
+
+}
+
+
+.button {
+    /* margin-top: 5px; */
+    cursor: pointer;
+    color: #0077ff;
+    background: none;
+    border: none;
+    padding: 5px;
+    padding-bottom: 0%;
+    border-right: 3px solid #0077ff;
+}
+
+.hidden {
+    display: none;
+}
+
+.digit {
+    display: flex;
+    margin: auto;
+    font-size: larger;
+   
+}
+
+
+
+.size{font-size: 40px;}
