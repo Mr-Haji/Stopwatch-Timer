@@ -101,8 +101,8 @@ function timreset() {
   timmin = 5;
   timinterval;
   timgetmiliseconds.innerHTML = "00";
-  timgetseconds.innerHTML = "00";
-  timgetminutes.innerHTML = "05";
+  timgetseconds.innerHTML = "59";
+  timgetminutes.innerHTML = "04";
 
   timstop();
 
